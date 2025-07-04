@@ -37,7 +37,7 @@ class OllamaInference:
                 response = requests.post(
                     f"{self.base_url}/api/generate",
                     json=payload,
-                    timeout=120  # 2 minutes timeout
+                    timeout=300 
                 )
                 
                 if response.status_code == 200:
