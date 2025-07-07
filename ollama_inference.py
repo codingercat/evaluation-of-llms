@@ -195,8 +195,6 @@ if __name__ == "__main__":
     # List of Ollama models to process
     # Update this list with your specific models
     ollama_models = [
-            "moondream:latest",
-            "mistral-small3.2:latest",
             "llama3.2-vision:latest"
         ]
     
